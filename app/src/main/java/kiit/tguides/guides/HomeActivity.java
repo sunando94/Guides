@@ -77,7 +77,9 @@ public class HomeActivity extends AppCompatActivity  {
             //add your extra information
             textSliderView.bundle(new Bundle());
             textSliderView.getBundle()
+
                     .putString("extra",name);
+            String str="hello";
 
             sliderLayout.addSlider(textSliderView);
             sliderLayout.setPresetTransformer(SliderLayout.Transformer.Fade);
