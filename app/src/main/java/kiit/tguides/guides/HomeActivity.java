@@ -80,6 +80,7 @@ public class HomeActivity extends AppCompatActivity  {
 
                     .putString("extra",name);
             String str="hello";
+            Log.i("Hello",str);
 
             sliderLayout.addSlider(textSliderView);
             sliderLayout.setPresetTransformer(SliderLayout.Transformer.Fade);
